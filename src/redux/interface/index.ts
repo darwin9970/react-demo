@@ -1,4 +1,5 @@
 // HomeState
 export interface HomeState {
-    userInfo: any;
+  userInfo: any;
+  token: any
 }

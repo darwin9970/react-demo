@@ -1,14 +1,14 @@
-import React from "react";
-import { RootState, useDispatch, useSelector } from "@/redux";
-import { setUserInfo } from "@/redux/modules/home";
+import React from 'react'
+import { RootState, useDispatch, useSelector } from '@/redux'
+import { setUserInfo } from '@/redux/modules/home'
 
 const Home = () => {
-  const dispatch = useDispatch();
-  const { userInfo } = useSelector((state: RootState) => state.home);
+  const dispatch = useDispatch()
+  const { userInfo } = useSelector((state: RootState) => state.home)
   const onClick = () => {
-    console.log("执行");
-    dispatch(setUserInfo({ age: 1, name: "Home", email: "2095034789@qq.com" }));
-  };
+    console.log('执行')
+    dispatch(setUserInfo({ age: 1, name: 'Home', email: '2095034789@qq.com' }))
+  }
   return (
     <div>
       <div>Home组件</div>
@@ -21,7 +21,7 @@ const Home = () => {
         </>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

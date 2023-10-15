@@ -5,6 +5,6 @@ const Class = () => {
     <>
       <div>这是Class组件</div>
     </>
-  );
-};
-export default Class;
+  )
+}
+export default Class
