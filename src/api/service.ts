@@ -1,5 +1,5 @@
 import NProgress from 'nprogress'
-import 'nprogress/nprogress.css'
+// import 'nprogress/nprogress.css'
 import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
 
 import { showFullScreenLoading, tryHideFullScreenLoading } from '@/api/config/serviceLoading'

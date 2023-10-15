@@ -1,7 +1,7 @@
 import {message} from 'antd'
 /**
  * @description 校验网络请求状态码
- * @param {string} status 状态码
+ * @param status 状态码
  */
 export const checkStatus = (status: string) => {
   switch (status) {

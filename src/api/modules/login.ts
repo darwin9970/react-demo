@@ -4,8 +4,8 @@ import http from '../service'
 
 /**
  * @name loginApi
+ * @description 用户登录接口
  */
-// * 用户登录接口
 export const loginApi = (params: Login.ReqLoginForm) => {
   try {
     return http.get<Login.ResLogin>(`/rec`, params)
@@ -14,5 +14,12 @@ export const loginApi = (params: Login.ReqLoginForm) => {
     // return http.post<Login.ResLogin>(`/login`, params, { headers: { noLoading: true } }); // 控制当前请求不显示 loading
   } catch (err) {
     console.log(err)
+  }
+}
+export const testApi = () => {
+  try {
+    return http.get('/test')
+  } catch (e) {
+    console.log(e)
   }
 }

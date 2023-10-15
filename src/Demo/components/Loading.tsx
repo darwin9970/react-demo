@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spin } from 'antd'
-import './index.less'
+// import './index.less'
 
 const Loading = () => {
   return <Spin className="request-loading"></Spin>

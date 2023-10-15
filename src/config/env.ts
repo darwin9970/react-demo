@@ -1,2 +1,2 @@
-// @ts-ignore
-export const API_URL = process.env === 'development' ? 'http://localhost:3000' : 'http://localhost:3000'
+
+export const API_URL = 'https://mock.apifox.cn/m1/3349263-0-default'
